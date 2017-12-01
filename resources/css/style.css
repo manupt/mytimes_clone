@@ -1,6 +1,6 @@
-div, span, p, h1, h2, img{
+/* div, span, p, h1, h2, img{
   border: 1px solid black;
-}
+}*/
 
 header{
   display: flex;
@@ -49,6 +49,8 @@ span a{
   width: 630px;
   height: 600px;
   margin-right: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .column.medium{
   display: flex;
@@ -63,6 +65,7 @@ span a{
   width: 240px;
   height: 600px;
   margin-right: 30px;
+  flex-direction: column;
 }
 
 .imagemain{
@@ -75,24 +78,18 @@ span a{
 .fall{
   background-image:
   url("../images/fallseason.png");
-  height: 300px;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .cameraman{
   background-image:
   url("../images/cameraman.png");
-  height: 300px;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 .cat{
   background-image:
   url("../images/cat.png");
-  height: 300px;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .cookie{
@@ -112,11 +109,44 @@ span a{
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
   display: inline-flex;
+  height: 300px;
 }
 
 p{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.story{
+  display: inline-block;
+}
+
+.sideone, .sidetwo{
+  max-width: 300px;
+}
+
+.bites{
+  display: flex;
+  margin: 0px;
+  height:300px;
+  flex-direction: column;
+}
+
+.bites h3{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+span.list{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
 }
