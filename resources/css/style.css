@@ -54,16 +54,7 @@ span a{
   color: black;
 }
 
-.content{
-  display: flex;
-  justify-content: space-around;
-  padding: 0px;
-  margin: 30px auto;
-  position: relative;
-  top: 100px;
-}
-
-/*  Another approach
+/*  Another approach*/
 
 .content {
   display: flex;
@@ -79,7 +70,32 @@ span a{
   flex-wrap: wrap;
 }
 
-End of the other approach*/
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.stories .text-content {
+  height: 250px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+/*End of the other approach*/
+
+/* My version
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 30px auto;
+  position: relative;
+  top: 100px;
+}
 
 .column.large{
   display: flex;
@@ -90,6 +106,19 @@ End of the other approach*/
   justify-content: space-between;
   margin-bottom: 70px;
 }
+
+end of my version*/
+
+.column.large{
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  margin-right: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
 .column.medium{
   display: flex;
   flex-wrap: wrap;
