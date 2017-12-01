@@ -40,7 +40,7 @@ header{
   padding-left: 7px;
 }
 
-nav{
+header nav{
   padding-right: 40px;
 }
 
@@ -53,6 +53,7 @@ nav span{
 span a{
   color: black;
 }
+
 .content{
   display: flex;
   justify-content: space-around;
@@ -61,6 +62,24 @@ span a{
   position: relative;
   top: 100px;
 }
+
+/*  Another approach
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  flex-wrap: wrap;
+}
+
+End of the other approach*/
 
 .column.large{
   display: flex;
