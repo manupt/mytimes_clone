@@ -1,6 +1,6 @@
- /*div, span, p, h1, h2, img, header, footer{
+ div, span, p, h1, h2, img, header, footer{
   border: 1px solid black;
-}*/
+}
 
 body, html {
 
@@ -61,6 +61,7 @@ span a{
   width: 1232px;
   margin: 30px auto 78px auto;
   padding-top: 116px;
+  /*align-items: flex-start;*/
 }
 
 .column {
@@ -125,6 +126,7 @@ end of my version*/
   width: 300px;
   margin-right: 30px;
 }
+
 .column.small{
   display: flex;
   flex-wrap: wrap;
